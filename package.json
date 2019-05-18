@@ -1,0 +1,19 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "静态文件服务器",
+  "main": "index.js",
+  "scripts": {
+    "start": ".\\node_modules\\.bin\\nodemon .\\src\\server.js"
+  },
+  "repository": "https://github.com/hfut2016/file_server.git",
+  "author": "lkj_duk <lkj_duk@139.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
